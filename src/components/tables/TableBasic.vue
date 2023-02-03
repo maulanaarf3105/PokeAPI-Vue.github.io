@@ -1,13 +1,8 @@
 <template>
   <q-card>
-    <q-card-section>
-      <div class="text-h6 text-grey-8">
-        Basic
-      </div>
-    </q-card-section>
     <q-card-section class="q-pa-none">
       <q-table
-        title="Treats"
+        title="Pokemon API"
         :rows="data"
         :columns="columns"
         row-key="name"
